@@ -1,1 +1,39 @@
 # aboutme
+
+This repository is about creation of Webpage includes all the requirements mentioned.
+
+
+## Repository Links 
+
+- [Webpage](https://www.amazon.com/) edit
+- [Source](https://www.flipkart.com/) edit
+
+
+## About
+
+This repository is about creation of Webpages using markdown language in GitHub. This page covers all the basics needed for creating Webpages in Github. 
+
+
+## Recommended tools
+
+1. [Markdown](https://www.markdowntutorial.com/): Markdown language is used to create Webpages on GitHub which is easy to use.
+1. [HTML](https://www.tutorialspoint.com/html/) : HTML is also used to create Webpages. Its simple language which includes tags.
+1. [CSS](https://www.tutorialspoint.com/css/):CSS is mainly used in HTML to add different features to the pages.
+
+
+## Recommended Resources
+
+- [Git](https://www.tutorialspoint.com/git/):Learning Git and its commands here will surely help for web development.
+- [Markdown](https://guides.github.com/features/mastering-markdown/): Mastering the Markdown language helped alot in creating Webpages. 
+- [GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) : This resource of GitHub will help in generating public key or adding it to your Github account.
+
+
+## Contributors
+
+Prashanth Reddy Nachannagari
+
+Masters in Applied Computer Science
+
+S534571@nwmissouri.edu
+
+
