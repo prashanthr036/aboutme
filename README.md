@@ -1,6 +1,6 @@
 # aboutme
 
-This repository is about creation of Webpage includes all the requirements mentioned.
+This repository is about creation of Webpage which includes all the basics needed for new people.
 
 
 ## Repository Links 
