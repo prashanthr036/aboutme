@@ -5,8 +5,8 @@ This repository is about creation of Webpage includes all the requirements menti
 
 ## Repository Links 
 
-- [Webpage](https://www.amazon.com/) edit
-- [Source](https://www.flipkart.com/) edit
+- [Webpage](https://prashanthr036.github.io/aboutme/) 
+- [Source](https://github.com/prashanthr036/aboutme) 
 
 
 ## About
@@ -24,7 +24,7 @@ This repository is about creation of Webpages using markdown language in GitHub.
 ## Recommended Resources
 
 - [Git](https://www.tutorialspoint.com/git/):Learning Git and its commands here will surely help for web development.
-- [Markdown](https://guides.github.com/features/mastering-markdown/): Mastering the Markdown language helped alot in creating Webpages. 
+- [Markdownguide](https://guides.github.com/features/mastering-markdown/): Mastering the Markdown language helped alot in creating Webpages. 
 - [GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) : This resource of GitHub will help in generating public key or adding it to your Github account.
 
 
@@ -36,4 +36,5 @@ Masters in Applied Computer Science
 
 S534571@nwmissouri.edu
 
+![Hosted image](https://images.freecreatives.com/wp-content/uploads/2015/06/super-car-hd-desktop-wallpaper.jpg)
 
