@@ -29,8 +29,7 @@ This repository is about creation of Webpages using markdown language in GitHub.
 
 ## Contributors
 
-This is Prashanth Reddy Nachannagari,pursuing Masters in Applied Computer Science at Northwest Missouri State University.
+This is Prashanth Reddy Nachannagari, pursuing Masters in Applied Computer Science at Northwest Missouri State University.
 
-S534571@nwmissouri.edu
 
 ![vscode image](https://github.com/prashanthr036/aboutme/blob/master/prashanth.jpg?raw=true)
