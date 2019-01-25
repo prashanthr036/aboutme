@@ -36,5 +36,4 @@ Masters in Applied Computer Science
 
 S534571@nwmissouri.edu
 
-![Hosted image](https://images.freecreatives.com/wp-content/uploads/2015/06/super-car-hd-desktop-wallpaper.jpg)
 ![vscode image](https://github.com/prashanthr036/aboutme/blob/master/prashanth.jpg)
