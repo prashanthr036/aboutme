@@ -33,4 +33,4 @@ This is Prashanth Reddy Nachannagari,pursuing Masters in Applied Computer Scienc
 
 S534571@nwmissouri.edu
 
-![vscode image](https://github.com/prashanthr036/aboutme/blob/master/prashanth.jpg)
+![vscode image](https://github.com/prashanthr036/aboutme/blob/master/prashanth.jpg?raw=true)
