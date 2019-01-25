@@ -1,6 +1,6 @@
-# aboutme
+# prashanth-reddy
 
-This repository is about creation of Webpage which includes all the basics needed for new people.
+
 
 
 ## Repository Links 
