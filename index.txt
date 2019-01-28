@@ -1,30 +1,3 @@
-<!doctype html>
-
-<html>
-
-<head>
-
-</head>
-
-<body>
-
-
-
-<header>
-Prashanth Reddy
-
-</header>
-<nav>
-</nav>
-
-<main>
-
-
-
-<article>
-
-<section>
-
 Hi, This is Prashanth Reddy.
 
 I am a new graduate student of Spring batch pursuing my Masters in Applied Computer Science at Northwest Missouri State University. I will be graduating by 2020.
@@ -35,21 +8,8 @@ My career plan is to get placed in top reputed company as a software engineer. A
 
 The interesting thing about me is, I like coding and learning new technologies. Also I enjoy watching all cricket matches.
 
-</section>
 
-
-</article>
-<aside>
 
 Link to my Linkedin Profile : https://www.linkedin.com/in/prashanth-reddy-a7009b9b
 
 Link to my GitHub is here : https://github.com/prashanthr036
-</aside>
-
-</main>
-<footer>
-</footer>
-
-&copy; 2019 Prashanth Reddy
-</body>
-</html>
