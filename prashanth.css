@@ -43,6 +43,7 @@ color: red;
 
 .grid-container {
   display: grid;
+  grid-column-gap: 50px;
 }
 
 section {
