@@ -36,6 +36,10 @@ background-color: lightblue;
   color: lightblue;
 }
 
+.container-fluid
+{
+  color: lightblue;
+}
 .para
 {
 color: red;
