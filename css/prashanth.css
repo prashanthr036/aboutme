@@ -13,12 +13,12 @@ body, html {
 
 h1
 {
-  color: black;	
+  color: lightblue;
 }
 
 h2
 {
-  color: black;
+  color: lightblue;
 }
 
 col-sm-4
@@ -28,15 +28,16 @@ background-color: lightblue;
 
 #nam
 {
-  font-size: 15px;	
+  color: lightblue;	
 }
 
 #new
 {
-  font-size: 15px;
+  color: lightblue;
 }
 
-section {
+section 
+{
   margin: 1rem;
   padding: 2rem;
   background-color: lightblue;
@@ -60,8 +61,18 @@ section {
 	font-size: 15px;
 }
 
+.col-sm-4
+{
+	position: relative;
+	font-size: 15px;
+        color: red;
 
 
-img {
+}
+
+
+
+img 
+{
   border-radius: 50%;
 }
