@@ -22,135 +22,179 @@
 
 <body class="bgimg">
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-                  aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="yourchoice.html">Area Calculation</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yourchoice.html">Area Calculation</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
     <header class="container-fluid">
         <h1>Prashanth Reddy</h1>
     </header>
     <hr />
-<section class="mb-4">
+    <section class="mb-4">
 
-            <h3 class="h1-responsive font-weight-bold text-left my-4">Area of Circle</h3>
+        <h3 class="h1-responsive font-weight-bold text-left my-4">Area of Circle</h3>
 
-            <div class="row">
+        <div class="row">
 
-                <div class="col-md-9 mb-md-0 mb-5">
+            <div class="col-md-9 mb-md-0 mb-5">
 
-                    <form id="calculate-form" name="calculate-form" action="#" method="POST">
+                <form id="calculate-form" name="calculate-form" action="#" method="POST">
 
-                        <div class="row">
+                    <div class="row">
 
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="radius" name="radius" class="form-control">
-                                    <label for="radius" class="">Enter Radius</label>
-									
-					
-									
-                                </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="radius" name="radius" class="form-control">
+                                <label for="radius" class="">Enter Radius</label>
+
+
+
                             </div>
-
-                            
-
                         </div>
 
-                    </form>
 
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="calArea()">Calculate</a> 
-                    </div>
-					<br>
-					<br>
-					
-					
-                    <h3 class="h1-responsive font-weight-bold text-left my-4">Area of Square</h3>					
-<div class="text-center text-md-left">
-                       <input type = "number" id = "myid"><br>Enter Side of a Square<br>
-                
-                <button type = "button"  onclick="myfunction()">Calculate</button> 
-                    </div>
-					<p id= "myPara"> </p>
-					<br>
-					<br>
-					
-					
-               
-					
-					<div class="text-center text-md-left">
-                            <h3 class="h1-responsive font-weight-bold text-left my-4">Event Handler</h3>
-                      <p>Click the below button to see an Event</p>      
-      
-         <input type = "button" onclick = "sayHello()" value = "Say Hello" /> 
-                    </div>
-                    <br>
-					<br>
-                    <div class="text-center text-md-left">
-                            <h3 class="h1-responsive font-weight-bold text-left my-4">jQuery and Ajax Reponse Event</h3>
-                        <p>This is a paragraph which can be hided.</p>
 
-                        <button class="btn1" >Hide</button>
-                        <button class="btn2" >Show</button>
-                      </div>
-                      <br>
-                      <br>
-                      
-                      
-                      
-<br/>
+                    </div>
 
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="calArea()">Calculate</a>
+                    <p id="res"></p>
                 </div>
+                <br>
+                <br>
 
-            </div>
-			
-			
 
-			
-<script src = "./scripts/square.js"></script>
-<script src = "./scripts/clickevent.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
-<script src = "./scripts/ajqury.js"></script>
+                <h3 class="h1-responsive font-weight-bold text-left my-4">Area of Square</h3>
+                <div class="text-center text-md-left">
 
+                    <p>Enter Side of a square:
+                        <input id="myid" type="number">
+                    </p>
+                    <!---        <input type = "number" id = "myid"><br>Enter Side of a Square<br>  
+                
+                <button type = "button"  onclick="myfunction()">Calculate</button> -->
+                </div>
+                <p id="myPara"> </p>
+
+
+
+                </p>
+
+                <button id="clicker" class="btn btn-primary">Click me!</button>
+                <button id="wiper" class="btn btn-danger">Clear Storage</button>
+
+                <p id="result"></p>
+                <br>
+                <br>
+
+
+
+                <div class="text-center text-md-left">
+                    <h3 class="h1-responsive font-weight-bold text-left my-4">Event Handler</h3>
+                    <p>Click the below button to see an Event</p>
+
+                    <input type="button" class="btn btn-primary" onclick="sayHello()" value="Say Hello" />
+                </div>
+                <br>
+                <br>
+                <div class="text-center text-md-left">
+                    <h3 class="h1-responsive font-weight-bold text-left my-4">jQuery Reponse Event</h3>
+                    <p>This is a paragraph which can be hided by using jQuery.</p>
+
+                    <button class="btn1">Hide</button>
+                    <button class="btn2">Show</button>
+                </div>
+            
+
+
+
+                <br>
+
+                <br>
+                <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event</h3>
+                <button id="simpbutt" class="btn btn-primary">Mouse over to see the Event</button>
+                <p id="simpsons"></p>
 <!--
-<script>
-    $(document).ready(function(){
-      $(".btn1").click(function(){
-        $("p").hide();
-      });
-      $(".btn2").click(function(){
-        $("p").show();
-      });
-    });
-    </script>
+                <br>
+                <div id="demo">
+                        <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event 1</h3>
+                        <button type="button" onclick="loadDoc()">Change Content</button>
+                        </div>
 -->
-        </section>
+            </div>
+
+        </div>
+
+
+
+
+        <script src="./scripts/square.js"></script>
+        <script src="./scripts/clickevent.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
+        <script src="./scripts/ajqury.js"></script>
+
+        <div>
+                        
+                        <script>
+                        function loadDoc() {
+
+                            var str="AJAX stands for Asynchronous JavaScript And XML.";
+                          var xhttp = new XMLHttpRequest();
+                          xhttp.onreadystatechange = function() {
+                            if (this.readyState == 4 && this.status == 200) {
+                              document.getElementById("demo").innerHTML =
+                              this.responseText;
+                            }
+                          };
+                          xhttp.open("GET","index.txt", true);
+                          
+                          xhttp.send();
+                        }
+                        </script>
+
+
+
+
+            <script>
+                $(document).ready(function () {
+                    $(".btn1").click(function () {
+                        $("p").hide();
+                    });
+                    $(".btn2").click(function () {
+                        $("p").show();
+                    });
+                });
+            </script>
+
+    </section>
 
 
     </main>
-
+</div>
     <br>
     <hr>
 
@@ -159,15 +203,27 @@
     </footer>
 
     <script>
-        function calArea() 
-        {
+        function calArea() {
             var radius = document.forms["calculate-form"]["radius"].value;
-           
+
             var area = 3.14 * radius * radius;
-            window.alert("The Area of Circle is: " + area);
+            document.getElementById("res").innerHTML=area;
+            //  window.alert("The Area of Circle is: " + area);   
         }
     </script>
-    
-</body>
-</html>
 
+
+
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+
+</body>
+
+</html>

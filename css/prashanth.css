@@ -13,7 +13,7 @@ body, html {
 
 h1
 {
-  color: lightblue;
+  color: black;
 }
 
 h2
@@ -55,7 +55,7 @@ section
   background-attachment: fixed; /* fixed in viewport */
 }
 
-.importanat
+.important
 {
 	position: relative;
 	font-size: 15px;
