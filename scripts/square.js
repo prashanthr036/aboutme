@@ -2,16 +2,14 @@ console.log('SCRIPT START')
 console.log('Declare testable functions......................')
 
 
-
-
-
-function myfunction(x){
+function myfunction(x)
+{
 	
-	return parseInt(x) * parseInt(x);
+ return parseInt(x) * parseInt(x);
+ 
 // let side =  document.getElementById("myid").value;
 //  let area = parseInt(side) * parseInt(side);
- 
- document.getElementById("myPara").innerHTML=parseInt(x) * parseInt(x);
+// document.getElementById("myPara").innerHTML=parseInt(x) * parseInt(x);
 
 }
 
@@ -51,9 +49,7 @@ function myfunction(x){
 		
         document.getElementById('wiper').addEventListener('click', () => {
           console.log('  Starting wiper click handler')
-       //   localStorage.removeItem('countOfClicks')
-          
-         // localStorage.removeItem('number1')
+      
 		  
 		  localStorage.removeItem('countOfClicks')
 		  
