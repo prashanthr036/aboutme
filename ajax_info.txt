@@ -1,0 +1,16 @@
+AJAX is not a programming language.
+
+AJAX is a technique for accessing web servers from a web page.
+
+AJAX stands for Asynchronous JavaScript And XML.
+
+AJAX can be supported by only few browsers.
+
+All the available browsers cannot support AJAX. Here is a list of major browsers that support AJAX.
+
+Mozilla Firefox 1.0 and above.
+Netscape version 7.1 and above.
+Apple Safari 1.2 and above.
+Microsoft Internet Explorer 5 and above.
+Konqueror.
+Opera 7.6 and above.

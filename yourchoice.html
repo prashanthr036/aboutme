@@ -116,7 +116,7 @@
                     <h3 class="h1-responsive font-weight-bold text-left my-4">Event Handler</h3>
                     <p>Click the below button to see an Event</p>
 
-                    <input type="button" class="btn btn-primary" onclick="sayHello()" value="Say Hello" />
+                    <input type="button" class="btn btn-primary" onclick="sayHello()" value="Click Here" />
                 </div>
                 <br>
                 <br>
@@ -134,16 +134,18 @@
                 <br>
 
                 <br>
-                <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event</h3>
+                <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event 1</h3>
                 <button id="simpbutt" class="btn btn-primary">Mouse over to see the Event</button>
                 <p id="simpsons"></p>
-<!--
+
                 <br>
                 <div id="demo">
-                        <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event 1</h3>
-                        <button type="button" onclick="loadDoc()">Change Content</button>
+                        <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event 2 </h3>
+
+                        <h5>Ajax will be always supported by Mozilla Firefox and some other browsers but not in Chrome, So please open this in Firefox and check </h5>
+                        <button type="button" class="btn btn-primary" onclick="loadDoc()">Change Content</button>
                         </div>
--->
+
             </div>
 
         </div>
@@ -170,7 +172,7 @@
                               this.responseText;
                             }
                           };
-                          xhttp.open("GET","index.txt", true);
+                          xhttp.open("GET","ajax_info.txt", true);
                           
                           xhttp.send();
                         }
